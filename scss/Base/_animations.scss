@@ -1,20 +1,75 @@
     // Chứa các keyframes , @media
     @media(max-width:1200px) {
-        
+        .navbar {
+            .navbar-collapse {
+                .navbar-nav {
+                    padding: 0;
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    width: 100%;
+
+                    .nav-item {
+                        padding: 0;
+
+                        .nav-link {
+                            padding: 0;
+                        }
+                    }
+                }
+            }
+        }
     }
 
     @media(max-width:992px) {
-        
+        .navbar {
+            margin: 0;
+            padding: 0;
+
+            .navbar-collapse {
+                position: absolute;
+                width: 100%;
+                left: 0;
+                top: 100%;
+                z-index: 5;
+                background: $white;
+                border-top: 1px solid $graphite;
+                padding: 6px 0;
+
+                .navbar-nav {
+                    display: block;
+                    padding-left: 30px;
+
+                    .nav-item {
+                        height: 50px;
+                    }
+
+                    .img-line {
+                        display: none !important;
+                    }
+                }
+            }
+        }
     }
 
     @media(max-width:768px) {
-        
+        .owl-carousel {
+            .item {
+                overflow: hidden;
+                text-overflow: clip;
+                width: 100%;
+                -webkit-line-clamp: 1;
+                display: -webkit-box;
+                -webkit-box-orient: vertical;
+            }
+
+            .owl-nav {
+                display: none !important;
+            }
+
+        }
     }
 
-    @media(max-width:576px) {
-        
-       
-    }
+    @media(max-width:576px) {}
 
-    @media(max-width:400px) {
-    }
+    @media(max-width:400px) {}

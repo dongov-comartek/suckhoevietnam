@@ -1,10 +1,18 @@
 // Lưu trữ tất cả các thẻ @Import
 
-// Base folder
-// layout folder
+
+@import './Abstracts/variable';
+@import './Base/fonts';
+
+@import './Base/animations';
+
+
 @import './Layout/header';
 @import './Layout/footer';
 @import './Layout/section_menu';
+@import './Layout/section-trending';
 
-// Abstracts folder
-// @import './Abstracts/variable';
+@import './Vendors/owl-carousel';
+
+
+

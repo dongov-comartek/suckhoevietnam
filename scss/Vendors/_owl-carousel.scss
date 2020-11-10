@@ -1,0 +1,28 @@
+.owl-carousel{
+    .item{
+        a{
+            color:$graphite;
+        }
+        
+    }
+   
+    .owl-nav{
+        display: flex;
+        justify-content: flex-end;
+        position: absolute;
+        top: -100%;
+        width: 100%;
+        .owl-prev{
+            width: 20px;
+            height: 20px;
+            background: $color-button-prev-next !important;
+           
+        }
+        .owl-next{
+           background: $color-button-prev-next !important;
+            width: 20px;
+            height: 20px;
+            
+        }
+    }
+}
