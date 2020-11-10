@@ -32,7 +32,7 @@
                 }
 
                 &:hover .nav-link {
-                    text-decoration: overline;
+                   border-top: 1px solid $blue;
                     color: $blue;
                 }
             }

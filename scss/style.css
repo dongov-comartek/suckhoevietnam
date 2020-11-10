@@ -107,7 +107,7 @@
 }
 
 .navbar .navbar-collapse .navbar-nav .nav-item:hover .nav-link {
-  text-decoration: overline;
+  border-top: 1px solid #0090FF;
   color: #0090FF;
 }
 
