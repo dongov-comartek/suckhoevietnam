@@ -42,6 +42,9 @@
   .navbar .navbar-collapse .navbar-nav .nav-item {
     height: 50px;
   }
+  .navbar .navbar-collapse .navbar-nav .nav-item .nav-link {
+    border: none !important;
+  }
   .navbar .navbar-collapse .navbar-nav .img-line {
     display: none !important;
   }
@@ -146,6 +149,14 @@
 #menu .col-6 ul {
   padding: 0;
   list-style: none;
+}
+
+#menu .col-6 ul .nav-item {
+  list-style-type: square !important;
+  color: #0090FF;
+}
+
+#menu .col-6 ul .nav-item a {
   color: #FFFFFF;
 }
 
@@ -155,6 +166,7 @@
 
 #menu .col-6 ul li a {
   color: #AAABAF;
+  list-style: none;
 }
 
 #menu .col-6 ul li:hover a {

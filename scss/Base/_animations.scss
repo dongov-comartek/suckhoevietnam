@@ -42,6 +42,9 @@
 
                     .nav-item {
                         height: 50px;
+                         .nav-link {
+                            border: none !important;
+                        }
                     }
 
                     .img-line {

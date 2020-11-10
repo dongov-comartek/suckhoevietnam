@@ -12,11 +12,21 @@
         ul {
             padding: 0;
             list-style: none;
-            color: $white;
+            .nav-item{
+                
+                    list-style-type: square !important;
+                    color: $blue;
+                   a{
+                    color: $white;
+                   }
+               
+            }
             li {
+               
                 padding-top: 16px;
                 a {
                     color: $graphite;
+                    list-style: none;
                 }
                 &:hover a {
                     text-decoration: none;
