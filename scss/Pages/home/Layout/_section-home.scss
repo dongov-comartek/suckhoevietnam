@@ -1,0 +1,8 @@
+#home-outDoor {
+    .home {
+        background: url('../images/home_funiture/background/355.png');
+        @include background-product;
+        height: 35.7vh;
+        background-position: center;
+    }
+}

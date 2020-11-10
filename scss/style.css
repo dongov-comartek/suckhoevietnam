@@ -1,0 +1,93 @@
+.navbar {
+  padding: 0;
+  height: 90px;
+}
+
+.navbar .logo {
+  position: relative;
+  width: 150px;
+}
+
+.navbar .navbar-collapse {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.navbar .navbar-collapse .navbar-nav .nav-item {
+  font-size: 12px;
+  text-decoration: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.navbar .navbar-collapse .navbar-nav .nav-item .nav-link {
+  height: 90px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.navbar .navbar-collapse .navbar-nav .nav-item img {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.navbar .navbar-collapse .navbar-nav .nav-item:hover .nav-link {
+  text-decoration: overline;
+  color: #0090FF;
+}
+
+#footer {
+  background: #0090FF;
+  color: #FFFFFF;
+  font-size: 12px;
+  height: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#footer p {
+  margin: 0;
+}
+
+#menu {
+  padding-top: 13px;
+  background: #1F2333;
+  font-size: 13px;
+  color: #E1E1E1;
+}
+
+#menu .infor {
+  width: 370px;
+}
+
+#menu ul {
+  padding-top: 14px;
+  list-style: none;
+  color: #FFFFFF;
+}
+
+#menu ul li p a {
+  color: #AAABAF !important;
+}
+
+#menu ul li p:hover .test111 {
+  text-decoration: none;
+  color: #0090FF;
+}
+/*# sourceMappingURL=style.css.map */

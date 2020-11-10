@@ -1,0 +1,11 @@
+.contact {
+    background: url('../images/contact/455.png');
+    // height: 560px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: $background_color_white;
+    background-position: bottom;
+    .message {
+        height: 142px;
+    }
+}

@@ -1,0 +1,28 @@
+#contact{
+    background: $background-color-footer;
+    .footer-contact {
+        
+        color: $background_color_white;
+        hr {
+            background: $background_color_white;
+        }
+        h1 {
+            font-size: 24px;
+        }
+        .img-contact {
+            @include flex-center;
+            padding-bottom: 19px;
+        }
+        a {
+            color: $background_color_white;
+            text-decoration: none
+        }
+        a:hover {
+            color: $color_hover;
+        }
+        .iframe-facebook {
+            padding-left: 0;
+        }
+    }
+
+}

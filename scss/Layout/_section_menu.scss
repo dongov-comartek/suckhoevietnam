@@ -1,0 +1,29 @@
+#menu{
+    padding-top: 13px;
+    background: #1F2333;
+    font-size: 13px;
+    color: #E1E1E1;
+    .infor{
+        width: 370px;
+    }
+    ul{
+        padding-top: 14px;
+        list-style: none;
+        color: #FFFFFF;
+        li {
+            p{
+                a{
+                    color:#AAABAF !important;
+                }
+                &:hover .test111{
+                    text-decoration: none;
+                    color: #0090FF;
+                }
+            }
+            
+           
+           
+      
+    }
+}
+}
