@@ -1,5 +1,16 @@
 .trending{
-    font-size: $font-small-trending;
+    font-size: $font-size-12-trending;
     height: 35px;
     align-items: center;
+}
+.col-lg-10{
+   
+}
+.item{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    a{
+        color:$graphite;
+    }
 }

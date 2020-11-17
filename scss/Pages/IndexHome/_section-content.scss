@@ -1,0 +1,58 @@
+.container{
+    .thumbnail {
+        .img-hot-new {
+            position: relative;
+            @include hiden-not-image-product;
+
+            .img-not-load {
+                width: 100%;
+                @include img-responsive;
+                height: 100%;
+            }
+            .dong-y {
+                background: $color-background-dong-y;
+            }
+            .lam-dep {
+                background: $color-background-lam-dep;
+            }
+            .gioi-tinh {
+                background: $color-background-gioi-tinh;
+            }
+            .tam-ly {
+                background: $color-background-tam-ly;
+
+            }
+            a {
+                font-family: $font-family-light;
+                font-size: $font-size-12;
+                height: 25px;
+                width: 70px;
+                color: $white;
+                position: absolute;
+                left: 0;
+                top: 0;
+            }
+        }
+
+        .caption {
+            a {
+
+                font-size: $font-size-15;
+                color: $color-link-new;
+            }
+
+            &:hover a {
+                text-decoration: none;
+                color: $primary;
+            }
+
+            p {
+                font-family: $font-family-light;
+                font-size: $font-size-14;
+
+            }
+
+        }
+    }
+
+}

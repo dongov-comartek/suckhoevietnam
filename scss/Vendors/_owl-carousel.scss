@@ -1,9 +1,10 @@
 .owl-carousel{
+    margin-left: -70px;
     .item{
+        
         a{
             color:$graphite;
         }
-        
     }
    
     .owl-nav{
@@ -15,11 +16,11 @@
         .owl-prev{
             width: 20px;
             height: 20px;
-            background: $color-button-prev-next !important;
+            background: lighten($color: $color-button-prev-next, $amount: 15%) !important;
            
         }
         .owl-next{
-           background: $color-button-prev-next !important;
+            background: lighten($color: $color-button-prev-next, $amount: 15%) !important;
             width: 20px;
             height: 20px;
             
