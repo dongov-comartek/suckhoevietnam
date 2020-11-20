@@ -1,10 +1,18 @@
 // Lưu trữ tất cả các thẻ @Import
-
-// Base folder
-// layout folder
+@import './Base/fonts';
+@import './Abstracts/mixin';
+@import './Base/base';
+@import './Abstracts/variable';
+@import './Base/animations';
 @import './Layout/header';
 @import './Layout/footer';
 @import './Layout/section_menu';
+@import './Layout/section-trending';
+@import './Vendors/owl-carousel';
 
-// Abstracts folder
-// @import './Abstracts/variable';
+@import './Pages/IndexHome/section-new-hot';
+@import './Pages/IndexHome/section-video';
+@import './Pages/IndexHome/section-content';
+
+
+

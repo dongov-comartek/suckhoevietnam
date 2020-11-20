@@ -1,0 +1,29 @@
+.owl-carousel{
+    margin-left: -70px;
+    .item{
+        
+        a{
+            color:$graphite;
+        }
+    }
+   
+    .owl-nav{
+        display: flex;
+        justify-content: flex-end;
+        position: absolute;
+        top: -100%;
+        width: 100%;
+        .owl-prev{
+            width: 20px;
+            height: 20px;
+            background: lighten($color: $color-button-prev-next, $amount: 15%) !important;
+           
+        }
+        .owl-next{
+            background: lighten($color: $color-button-prev-next, $amount: 15%) !important;
+            width: 20px;
+            height: 20px;
+            
+        }
+    }
+}

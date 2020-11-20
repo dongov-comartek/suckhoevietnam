@@ -1,9 +1,0 @@
-#kitcher-outDoor {
-    .kitchen {
-        background: url('../images/kitchen/background/7.png');
-        @include background-product;
-        height: 35.7vh;
-        color: $background_color_white;
-        background-position: center;
-    }
-}
