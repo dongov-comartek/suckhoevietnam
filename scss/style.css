@@ -252,6 +252,10 @@ body {
           align-items: center;
 }
 
+.trending .carousel .carousel-inner {
+  margin-left: -10%;
+}
+
 .trending .carousel .carousel-inner .carousel-item a {
   white-space: nowrap;
   color: #AAABAF;
