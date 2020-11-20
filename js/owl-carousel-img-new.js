@@ -1,14 +1,12 @@
 $('.owl-carousel').owlCarousel({
-   
     loop:true,
     margin:10,
     nav:true,
-    dots:false,
-     autoplay: true,
-            smartSpeed: 1500,
+    // dots: true,
     responsive:{
         0:{
-            items:1
+            items:3
         }
+    
     }
 })

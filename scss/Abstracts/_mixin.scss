@@ -2,14 +2,17 @@
     font-family: "Helvetica-light";
     src: url(/fonts/helveticaneue/Helvetica-Neue-Light_22503.ttf);
 }
+
 @font-face {
     font-family: "Helvetica-medium";
     src: url(/fonts/helveticaneue/HelveticaWorld-Regular.ttf);
 }
+
 @font-face {
     font-family: "Helvetica-Regular";
     src: url(/fonts/helveticaneue/HelveticaNeue-Regular.ttf);
 }
+
 @font-face {
     font-family: "Helvetica-Bold";
     src: url(/fonts/helveticaneue/Helvetica-Neu-Bold.ttf);
@@ -18,6 +21,8 @@
 @mixin hiden-not-image-product {
 
     display: block;
+    padding-right: 15px;
+    padding-left: 15px;
     position: relative;
     padding-bottom: 62%;
     overflow: hidden;
@@ -41,43 +46,44 @@
 }
 
 
-@mixin display-line-2 {
+@mixin display-line-20 {
     overflow: hidden;
     text-overflow: ellipsis;
     line-height: 25px;
     -webkit-line-clamp: 2;
-    // height: 50px;
+    height: 50px;
     display: -webkit-box;
-    -webkit-box-orient: vertical;  
-    
+    -webkit-box-orient: vertical;
+
 }
-@mixin display-line-1 {
+
+@mixin display-line-10 {
     float: left;
     overflow: hidden;
     white-space: nowrap;
+    // height: 50px;
     width: 100%;
-    
 }
-@mixin display-line-3{
+
+@mixin display-line-30 {
     color: $color-link-new;
     overflow: hidden;
     text-overflow: ellipsis;
     line-height: 25px;
     -webkit-line-clamp: 3;
     display: -webkit-box;
-    -webkit-box-orient: vertical; 
-    
+    -webkit-box-orient: vertical;
 }
 
 @mixin video {
     position: absolute;
-   display: block;
-   background:url(/images/video/btn-play-video.png);
-   background-size: contain;
-   background-repeat: no-repeat;
-   background-position: center;
-   height: 30%;
-   width: 80%;
-   top: 38px;
-   left: 20px;
+    display: block;
+    background: url(/images/video/btn-play-video.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 30%;
+    width: 80%;
+    top: 38px;
+    left: 20px;
 }

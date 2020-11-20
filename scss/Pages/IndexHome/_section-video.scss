@@ -4,7 +4,6 @@
 
     .titile-name {
         font-size: $font-size-20;
-        font-family: $font-family-Bold;
 
         ul {
             padding-left: 20px;
@@ -20,52 +19,41 @@
         }
     }
 
-    .thumbnail {
+    .img-video {
+        position: relative;
+        @include hiden-not-image-product;
 
-        .img-video {
-            position: relative;
-            @include hiden-not-image-product;
-
-            .btn-play-video {
-                width: 100%;
-                @include img-responsive;
-            }
-
-            a {
-                @include video;
-            }
+        .btn-play-video {
+            width: 100%;
+            @include img-responsive;
         }
 
-        .caption {
-            a {
-                font-size: $font-size-15;
-                color: $color-link-new;
-                // @include display-line-1;
-            }
+        a {
+            @include video;
+        }
+    }
 
-            &:hover a {
-                text-decoration: none;
-                color: $primary;
-            }
+    .caption {
+        a {
+            font-size: $font-size-15;
+            color: $color-link-new;
+        }
 
-            .author {
-                padding-top: 20px;
-                list-style: none;
-                padding-left: 0;
+        &:hover a {
+            text-decoration: none;
+            color: $primary;
+        }
+    }
 
-                ul {
-                    padding-left: 10%;
-                }
-            }
+    .author {
+        list-style: none;
 
-            ul {
-                font-family: $font-family-regular;
-                font-size: $font-size-12;
-                display: flex;
+        ul,
+        a {
 
-            }
-
-
+            font-size: $font-size-11;
+            padding-left: 10%;
+            padding-top: 2px;
         }
     }
 }

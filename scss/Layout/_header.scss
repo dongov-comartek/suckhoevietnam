@@ -2,6 +2,7 @@
 .navbar {
     padding: 0;
     height: 90px;
+
     .logo {
         position: relative;
         width: 150px;
@@ -10,7 +11,7 @@
     .navbar-collapse {
         justify-content: center;
         align-items: center;
-       
+
         .navbar-nav {
             .nav-item {
                 font-size: $font-size-14;
@@ -31,7 +32,7 @@
                 }
 
                 &:hover .nav-link {
-                   border-top: 1px solid $primary;
+                    border-top: 1px solid $primary;
                     color: $primary;
                 }
             }
