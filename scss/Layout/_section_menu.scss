@@ -3,13 +3,17 @@
     background: $charcoal-purple;
     font-size: $font-medium;
     color: $white-milk;
+
     .infor {
         padding-right: 50px;
     }
+
     .col-12 {
         padding-right: 0;
+
         .submenu {
             margin-top: 5px;
+
             .nav-item {
                 list-style-type: square !important;
                 color: $primary;
@@ -18,11 +22,14 @@
                 a {
                     color: $white;
                 }
+
                 ul {
                     padding: 0;
                     list-style: none;
+
                     li {
                         padding-top: 16px;
+
                         a {
                             color: $graphite;
                             list-style: none;

@@ -30,6 +30,7 @@
                 }
             }
         }
+
         .navbar {
             margin: 0;
             padding: 0;
@@ -50,68 +51,74 @@
 
                     .nav-item {
                         height: 50px;
-                         .nav-link {
+
+                        .nav-link {
                             border: none !important;
                         }
                     }
+
                     .img-line {
                         display: none !important;
                     }
                 }
             }
         }
+
+        #video {
+            margin-top: 0 !important;
+
+            .author {
+                display: none !important;
+            }
+        }
+
+        .tong-hop-new,
+        .quang-cao-3,
+        .list-quang-cao {
+            display: none !important;
+        }
+
+        .tin-doc-nhieu {
+            position: unset !important;
+        }
     }
 
     @media(max-width:768px) {
-        .owl-carousel {
-            margin-left: -50px !important;
-            .item {
-                overflow: hidden;
-                text-overflow: clip;
-                width: 100%;
-                -webkit-line-clamp: 1;
-                display: -webkit-box;
-                -webkit-box-orient: vertical;
-            }
+        .trending {
 
-            .owl-nav {
-                display: none !important;
+            .carousel-control-next,
+            .carousel-control-prev {
+                display: none;
             }
-
         }
+
         #menu {
             .col-12 {
                 .submenu {
                     display: block !important;
                     column-count: 2;
-                    padding-left: 15px ;
+                    padding-left: 15px;
                 }
             }
         }
-        #new-hot{
+
+        #new-hot {
             .latest-news {
-                .link-new-hot{
+                .link-new-hot {
                     display: none;
                 }
             }
-            .list-quang-cao{
-                display: none;
-            }
         }
-        .trending{
-            .col-lg-10{
-                margin-left: 0;
-            }
+
+        .xem-them {
+            display: none;
         }
-    
     }
 
-    @media(max-width:576px) {
-       
-    }
+    @media(max-width:576px) {}
 
     @media(max-width:400px) {
         .owl-carousel {
-            margin-left:-25px !important;
+            margin-left: -25px !important;
         }
     }
